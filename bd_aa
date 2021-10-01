@@ -1,0 +1,27 @@
+CREATE DATABASE instituicao_ensino;
+
+CREATE TABLE aluno (
+aluno_matricula INT (11),
+aluno_nome VARCHAR (255), 
+aluno_CPF INT (11),
+aluno_endereco VARCHAR (100),
+aluno_telefone INT (8));
+
+CREATE TABLE docente (
+docente_matricula INT (11),
+docente_nome VARCHAR (255),
+docente_CPF INT (11),
+docente_endereco VARCHAR (100),
+docente_telefone INT (8));
+
+CREATE TABLE curso (
+curso_nome VARCHAR (50),
+curso_cod INT (6),
+curso_cargahor (3));
+
+CREATE TABLE disciplina (
+disciplina_nome VARCHAR (100),
+disciplina_cod INT (8),
+disciplina_ementa VARCHAR (255));
+disciplina_cargahor INT (2));
+
